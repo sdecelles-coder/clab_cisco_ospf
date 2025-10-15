@@ -1,4 +1,4 @@
-# clab_test_c1000v
+# clab_test_cisco_iol
 
 > [!NOTE]
 > Default credentials: admin:admin
