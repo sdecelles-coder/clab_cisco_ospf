@@ -4,6 +4,7 @@ topology:
     iol-1:
       kind: cisco_iol
       image: vrnetlab/cisco_iol:17.15.01
+      startup-config: iol-1-statup.cfg
     iol-2:
       kind: cisco_iol
       image: vrnetlab/cisco_iol:17.15.01
