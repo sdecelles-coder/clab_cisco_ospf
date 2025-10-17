@@ -8,7 +8,7 @@ topology:
     rtr-2:
       kind: cisco_iol
       image: vrnetlab/cisco_iol:17.15.01
-      #startup-config: rtr-2-startup.cfg
+      #startup-config: rtr-2-new-startup.cfg
     rtr-3:
       kind: cisco_iol
       image: vrnetlab/cisco_iol:17.15.01
