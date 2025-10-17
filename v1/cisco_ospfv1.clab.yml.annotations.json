@@ -1,0 +1,43 @@
+{
+  "freeTextAnnotations": [],
+  "groupStyleAnnotations": [],
+  "cloudNodeAnnotations": [],
+  "nodeAnnotations": [
+    {
+      "id": "rtr-1",
+      "icon": "router",
+      "position": {
+        "x": 100,
+        "y": 100
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "rtr-2",
+      "icon": "router",
+      "position": {
+        "x": 220,
+        "y": 100
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    },
+    {
+      "id": "rtr-3",
+      "icon": "router",
+      "position": {
+        "x": 100,
+        "y": 220
+      },
+      "geoCoordinates": {
+        "lat": 48.684826888402256,
+        "lng": 9.007895390625677
+      }
+    }
+  ]
+}
