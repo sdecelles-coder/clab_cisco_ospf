@@ -1,0 +1,20 @@
+name: cisco-ospfv1
+topology:
+  nodes:
+    rtr-1:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:17.15.01
+      startup-config: rtr-1-statup.cfg
+    rtr-2:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:17.15.01
+      startup-config: rtr-2-statup.cfg
+    rtr-3:
+      kind: cisco_iol
+      image: vrnetlab/cisco_iol:17.15.01
+      startup-config: rtr-3-statup.cfg
+
+  links:
+    - endpoints: ["rtr-1:Ethernet0/1","rtr-2:Ethernet0/1"] 
+    - endpoints: ["rtr-1:Ethernet0/2", "rtr-3:Ethernet0/1"]
+    - endpoints: ["rtr-2:Ethernet0/2", "rtr-3:Ethernet0/2"]
