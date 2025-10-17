@@ -4,15 +4,15 @@ topology:
     rtr-1:
       kind: cisco_iol
       image: vrnetlab/cisco_iol:17.15.01
-      startup-config: rtr-1-startup.cfg
+      #startup-config: rtr-1-startup.cfg
     rtr-2:
       kind: cisco_iol
       image: vrnetlab/cisco_iol:17.15.01
-      startup-config: rtr-2-startup.cfg
+      #startup-config: rtr-2-startup.cfg
     rtr-3:
       kind: cisco_iol
       image: vrnetlab/cisco_iol:17.15.01
-      startup-config: rtr-3-startup.cfg
+      #startup-config: rtr-3-startup.cfg
 
   links:
     - endpoints: ["rtr-1:Ethernet0/1","rtr-2:Ethernet0/1"] 
